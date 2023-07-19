@@ -6,7 +6,7 @@ const Mobile = () => {
       <Styled.heroContainer>
         <Styled.oMobile>
           <h1>Othent Mobile</h1>
-          <p>Othent mobile is currently exclusively supported on the app store and chrome store</p>
+          {/* <p>Othent mobile is currently exclusively supported on the app store and chrome store</p> */}
 
           <div className='imgContainer'>
             <a href="https://example.com" target="_blank" rel="noopener noreferrer">
