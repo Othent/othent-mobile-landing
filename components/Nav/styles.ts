@@ -9,11 +9,11 @@ export const NavBar = styled.header`
   width: 100%;
   display: flex;
   position: fixed;
-  padding: 1.1rem 2rem;
+  padding: 0.8rem 2rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
   backdrop-filter: blur(20px);
   z-index: 999;
 
@@ -38,43 +38,19 @@ export const NavLogo = styled.div`
   gap: 0.6rem;
 
   p {
-    color: #2375ef;
-    font-size: 1.125rem;
+    color: #FF385C;
+    font-size: 1.2;
 
     @media (min-width: 550px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 
-  .toggle {
-    width: 60px;
-    height: 35px;
-    border-radius: 2rem;
-    background: #2375ef;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    div {
-      height: 33px;
-      width: 33px;
-      margin-right: 1px;
-      border-radius: 50%;
-      background: #fff;
-    }
-
-    @media (min-width: 550px) {
-      width: 57px;
-      height: 32px;
-
-      div {
-        width: 30px;
-        height: 30px;
-      }
-    }
+  .stayWithTateLogo {
+    font-size: 30px;
   }
 `;
+
 
 export const Menu = styled.nav`
   display: flex;

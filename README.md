@@ -1,2 +1,2 @@
-# othent-mobile-landing
-Landing page of Othent mobile
+#  Stay with Tate front end
+Stay with Tate front end

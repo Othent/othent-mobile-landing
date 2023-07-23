@@ -1,8 +1,9 @@
 import { DMSans700 } from '../../utils/fonts';
 import styled from 'styled-components';
 
-const button_theme = "35, 117, 239";
-const button_active = "28, 94, 191";
+const button_theme = "255, 56, 92";
+const button_active = "255, 56, 92";
+
 
 const Button = styled.a<Props>`
   cursor: pointer;

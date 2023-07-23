@@ -1,19 +1,17 @@
 import Head from 'next/head';
-import { useEffect } from 'react';
-import Mobile from '../components/Mobile';
+import Hero from '../components/Hero';
+import Bookings from '../components/Places';
 import Footer from '../components/Footer';
 import { SectionOne } from '../components/sharedstyles';
 
 
 export default function Home() {
-  useEffect(() => console.log('You should consider working with us, email hello@othent.io'), []);
-
   
   return (
     <SectionOne>
       <Head>
-        <title>Othent | Mobile</title>
-        <link rel='icon' href='https://Othent.io/favicon.ico' />
+        <title>Stay With Tate | Own your stay</title>
+        <link rel='icon' href='/stayWithTateLogo.svg' />
         <meta property="og:title" content="Othent - Merging Web2 to Web3 user logins with a familiar and simple interface."/>
         <meta property='og:description' content='Othent - Merging Web2 to Web3 user logins with a familiar and simple interface.' />
         <meta property="og:url" content="https://Othent.io"/>
@@ -30,7 +28,9 @@ export default function Home() {
         <meta property="og:site_name" content="Othent"></meta>
       </Head>
 
-      <Mobile />
+      <Hero />
+      
+      <Bookings />
 
       <Footer />
     </SectionOne>

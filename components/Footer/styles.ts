@@ -4,6 +4,7 @@ export const Container = styled.footer`
   display: flex;
   justify-content: space-between;
   padding: 4rem 6rem 5rem;
+  background-color: #FF385C;
 
   @media (min-width: 550px) {
     background-position: -10%;
